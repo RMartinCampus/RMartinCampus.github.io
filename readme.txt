@@ -1,1 +1,1 @@
-Bonjour, ceci est un projet au top
+Bonjour, ce portfolio est un exercice de formation.
