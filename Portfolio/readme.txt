@@ -1,2 +1,1 @@
-Bonjour, ce readme est pour tester Git.
-Ceci est une modif du readme.
+Bonjour, ce portfolio est un exercice de formation.
