@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana;
+}
+
+
+
+#pp{
+  border-radius: 50%;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+header{
+  margin: 5px;
+  height: 10%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+nav a:hover{
+    border-bottom: 2px solid gold;
+    color: orange;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 5px solid;
+}
+th{
+    height: 150px;
+    border: 2px solid;
+}
+
+
+
+
+
+#info{
+    font-weight: bold;;
+}
+
+#txtRouge{
+    color: #af1a1a;
+}
+
+#listeRS{
+    border-radius: 05%;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+#listeRS img{
+    width: 64px;
+    height: 64px;
+    background-color: #d9d9d9;
+}
+
+
+
+.images{
+  width: 20%;
+  float: left;
+}
+
+
+
+
+
+
+form {
+    /* On centre le formulaire */
+    margin: 0 auto;
+    width: 600px;
+    background-color: #d9d9d9;
+    /* Le contour du formulaire */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Taille et alignement uniformes */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* On s'assure que les champs texte ont la même police
+       Par défaut, les zones de texte ont une police à chasse
+       fixe. */
+    font: 1em sans-serif;
+  
+    /* Taille uniforme pour des champs */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* On utilise la même bordure que pour le formulaire */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* On rajoute une mise en avant pour les éléments avec
+       le focus. */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* On aligne les textes sur plusieurs lignes avec leur
+       libellé. */
+    vertical-align: top;
+  
+    /* On fournit un peut d'espace pour saisir du texte. */
+    height: 5em;
+  
+    /* On permet de redimensionner verticalement. */
+    resize: vertical;
+  }
+  
+  .button {
+    /* On aligne les boutons avec les champs texte. */
+    padding-left: 150px; /* La même taille que les libellés */
+  }
+  
+  button {
+    /* Une marge supplémentaire représentant approximativement
+       le même espace qu'entre les libellés et les champs. */
+    margin-left: 0.5em;
+  }
+  
+
+.hobbiesH2{
+  text-align: left;
+  padding-left: 5%;
+}
+
+
+.icnHobbies{
+  max-width: 64px;
+  max-height: 64px;
+  align-items: center;
+}
+
+.listHobbies ul{
+}
+
+
+.tails{
+  display: flex;
+}
+
+.savoir-faire{
+  width: 30%;
+  text-align: center;
+}

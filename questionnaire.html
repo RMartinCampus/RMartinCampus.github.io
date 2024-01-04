@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Remy MARTIN - Contacts</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="listeMenu">
+                <li> <a href="index.html">Acceuil</a></li>
+                <li> <a href="competences.html">Compétences</a></li>
+                <li> <a href="experiences.html">Experiences</a></li>
+                <li> <a href="hobbies.html">Hobbies</a></li>
+                <li> <a href="questionnaire.html">Contactes</a></li>
+            </ul>
+        </nav>
+
+        
+        <div>
+            <h1>Me contacter</h1>
+            <form action="https://httpbin.org/get" method="get">
+                <label for="nom">Votre nom : </label>
+                <input type="text" id="nom" name="nom">
+                <label for="email">Votre adresse mail : </label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Votre message : </label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </body>
+</html> 
