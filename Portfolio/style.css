@@ -142,7 +142,7 @@ form {
   textarea:focus {
     /* On rajoute une mise en avant pour les éléments avec
        le focus. */
-    border-color: #000;
+    border-color: #fff;
   }
   
   textarea {
